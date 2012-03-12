@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+	maven {
+        url 'http://46.137.105.19:8081/nexus/content/repositories/spark'
+    }
+	mavenCentral()
+}
+
+dependencies {
+	compile('spark:spark:0.9.9.3-SNAPSHOT') {
+        exclude group: 'org.apache.commons'
+    }
+}
