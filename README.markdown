@@ -1,1 +1,1 @@
-Just me doing some simple testing with Sparck, the Sinatra inspired micro framework for Java
+Just me doing some simple testing with Spark, the Sinatra inspired micro framework for Java.
